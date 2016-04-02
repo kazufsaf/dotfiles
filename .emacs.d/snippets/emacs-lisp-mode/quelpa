@@ -1,0 +1,4 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: quelpa
+# --
+(quelpa '$1)

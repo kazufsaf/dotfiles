@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: digraph
+# key: digraph
+# binding: direct-keybinding
+# --
+digraph $1 {
+        $0
+}

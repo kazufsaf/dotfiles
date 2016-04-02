@@ -1,0 +1,33 @@
+"*":
+  "exception-reporting":
+    userId: "b8806671-1d50-948f-f782-0eba7404f5c5"
+  welcome:
+    showOnStartup: false
+  core:
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "linter"
+      "git-history"
+      "project-manager"
+      "git-plus"
+      "script"
+    ]
+  editor:
+    invisibles: {}
+  linter:
+    showErrorPanel: false
+  "tree-view":
+    showOnRightSide: true
+  "autocomplete-plus":
+    minimumWordLength: 2
+    backspaceTriggersAutocomplete: true
+  "open-recent": {}
+  "atom-beautify": {}
+  jumpy: {}
+  emmet: {}
+  "git-history": {}
+  "git-log": {}
+  "git-plus": {}
+  "go-plus": {}
+  minimap: {}
+  "expand-region": {}

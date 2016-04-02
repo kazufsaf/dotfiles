@@ -1,0 +1,83 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+
+}
+
+// style the background and foreground colors on the atom-text-editor-element
+// itself
+atom-text-editor {
+
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow
+// expression
+atom-text-editor::shadow .cursor {
+
+}
+
+atom-text-editor::shadow {
+  .language-gfm ;
+}
+
+// markdown
+.language-gfm {
+  .language-gfm-header-rainbow(70%, 60%);
+}
+
+// markdown
+// Rainbow Color header
+.language-gfm-header-rainbow (@saturation: 50%, @lightness: 50%) {
+  .source.gfm {
+    .markup.heading.heading-1.gfm  {
+      @color: hsl(0, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+    .markup.heading.heading-2.gfm  {
+      @color: hsl(60, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+    .markup.heading.heading-3.gfm  {
+      @color: hsl(120, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+    .markup.heading.heading-4.gfm  {
+      @color: hsl(180, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+    .markup.heading.heading-5.gfm  {
+      @color: hsl(240, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+    .markup.heading.heading-6.gfm  {
+      @color: hsl(300, @saturation, @lightness);
+      color: @color;
+      .markup.heading.marker.gfm {
+        color: @color;
+      }
+    }
+  }
+}

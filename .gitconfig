@@ -1,0 +1,32 @@
+[core]
+
+
+[user]
+#  name =
+#  email =
+
+[color]
+  ui = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+
+[alias]
+  br = branch
+  ci = commit
+  co = checkout
+  d = diff
+  dc = diff --cached
+  d1 = diff HEAD~
+  d2 = diff HEAD~2
+  d3 = diff HEAD~3
+  l = log 
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  s = status
+  ss = status -s
+  sh = show
+[user]
+	name = Kazuhro Ota
