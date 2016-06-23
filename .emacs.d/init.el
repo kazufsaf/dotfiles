@@ -298,7 +298,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; helm                                                                         ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+(require 'helm-config)
 (helm-mode 1)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -624,6 +624,9 @@
 (global-set-key (kbd "C-c g r") 'git-gutter:revert-hunk)
 
 ; helm
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-x C-b") 'helm-buffers-list)
 (global-set-key (kbd "C-c C-h") 'helm-mini)
 (global-set-key (kbd "C-c h s") 'helm-ag)
 (global-set-key (kbd "C-c h h") 'helm-mini)
@@ -632,8 +635,6 @@
 (global-set-key (kbd "C-c h k") 'helm-show-kill-ring)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (define-key helm-map (kbd "C-h") 'delete-backward-char)
-(define-key helm-read-file-map (kbd "C-h") 'delete-backward-char)
-(define-key helm-find-files-map (kbd "C-h") 'delete-backward-char)
 
 ; helm-projectile
 (global-set-key (kbd "C-c p p") 'helm-projectile)
