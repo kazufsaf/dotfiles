@@ -1,0 +1,56 @@
+{
+  "body": {
+    "ctrl-g": "core:cancel",
+    "ctrl-/": "core:undo",
+    "ctrl-?": "core:redo",
+    "ctrl-x ctrl-s": "core:save",
+    "ctrl-x k": "core:close",
+    "ctrl-x ctrl-f": "fuzzy-finder:toggle-file-finder",
+    "ctrl-x b": "fuzzy-finder:toggle-buffer-finder",
+    "ctrl-x o": "window:focus-next-pane",
+    "ctrl-x ctrl-c": "application:quit",
+    "ctrl-x 3": "pane:split-right",
+    "ctrl-x 2": "pane:split-down",
+    "ctrl-x 0": "pane:close",
+    "ctrl-x 1": "atomic-emacs:close-other-panes",
+    "ctrl-c p l": "project-manager:list-projects",
+    "ctrl-c p e": "project-manager:edit-projects"
+  },
+  "atom-text-editor": {
+    "alt-x": "command-palette:toggle",
+    "ctrl-y": "core:paste",
+    "ctrl-w": "core:cut",
+    "ctrl-c b a": "bookmarks:view-all",
+    "ctrl-c b b": "bookmarks:toggle-bookmark",
+    "ctrl-c b c": "bookmarks:clear-bookmarks",
+    "ctrl-c b n": "bookmarks:jump-to-next-bookmark",
+    "ctrl-c b p": "bookmarks:jump-to-previous-bookmark",
+    "ctrl-=": "expand-region:expand",
+    "ctrl-+": "expand-region:shrink"
+  },
+  "atom-text-editor[mini]": {
+    "ctrl-g": "core:cancel"
+  },
+  "atom-text-editor:not([mini])": {
+    "ctrl-e": "editor:move-to-end-of-line",
+    "alt-<": "core:move-to-top",
+    "alt->": "core:move-to-bottom",
+    "ctrl-j": "editor:newline",
+    "ctrl-s": "find-and-replace:show",
+    "ctrl-r": "find-and-replace:show"
+  },
+  "atom-text-editor.jumpy-jump-mode": {
+    "ctrl-g": "jumpy:clear"
+  },
+  "atom-text-editor.autocomplete-active": {
+    "ctrl-g": "autocomplete-plus:cancel",
+    "ctrl-j": "autocomplete-plus:confirm"
+  },
+  ".tool-panel.panel-left, .tool-panel.panel-right": {
+    "ctrl-g": "tool-panel:unfocus"
+  },
+  ".platform-darwin, .platform-win32, .platform-linux": {
+    "ctrl-g": "core:cancel",
+    "alt-g g": "go-to-line:toggle"
+  }
+}

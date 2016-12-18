@@ -1,0 +1,60 @@
+{
+  "*": {
+    "atom-beautify": {},
+    "autocomplete-go": {
+      "suppressBuiltinAutocompleteProvider": false
+    },
+    "autocomplete-plus": {
+      "backspaceTriggersAutocomplete": true,
+      "maxVisibleSuggestions": 15,
+      "minimumWordLength": 2
+    },
+    "core": {
+      "disabledPackages": [
+        "autocomplete-paths"
+      ],
+      "packagesWithKeymapsDisabled": [
+        "emmet",
+        "linter",
+        "git-history",
+        "project-manager",
+        "git-plus",
+        "script"
+      ],
+      "telemetryConsent": "no"
+    },
+    "editor": {
+      "fontFamily": "SourceHanCodeJP-Normal",
+      "fontSize": 16,
+      "invisibles": {},
+      "showIndentGuide": true,
+      "showInvisibles": true
+    },
+    "emmet": {},
+    "exception-reporting": {
+      "userId": "b8806671-1d50-948f-f782-0eba7404f5c5"
+    },
+    "expand-region": {},
+    "git-history": {},
+    "git-log": {},
+    "git-plus": {},
+    "go-plus": {
+      "panelDisplayMode": "closed"
+    },
+    "jumpy": {},
+    "linter": {},
+    "markdown-preview": {
+      "useGitHubStyle": true
+    },
+    "minimap": {
+      "displayCodeHighlights": true
+    },
+    "open-recent": {},
+    "tree-view": {
+      "showOnRightSide": true
+    },
+    "welcome": {
+      "showOnStartup": false
+    }
+  }
+}
