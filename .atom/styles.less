@@ -24,7 +24,7 @@ atom-text-editor::shadow .cursor {
 
 }
 
-atom-text-editor::shadow {
+atom-text-editor.editor {
   .language-gfm ;
 }
 
@@ -36,46 +36,46 @@ atom-text-editor::shadow {
 // markdown
 // Rainbow Color header
 .language-gfm-header-rainbow (@saturation: 50%, @lightness: 50%) {
-  .source.gfm {
-    .markup.heading.heading-1.gfm  {
+  .syntax--gfm {
+    .syntax--heading-1  {
       @color: hsl(0, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
-    .markup.heading.heading-2.gfm  {
+    .syntax--heading-2  {
       @color: hsl(60, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
-    .markup.heading.heading-3.gfm  {
+    .syntax--heading-3  {
       @color: hsl(120, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
-    .markup.heading.heading-4.gfm  {
+    .syntax--heading-4  {
       @color: hsl(180, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
-    .markup.heading.heading-5.gfm  {
+    .syntax--heading-5  {
       @color: hsl(240, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
-    .markup.heading.heading-6.gfm  {
+    .syntax--heading-6  {
       @color: hsl(300, @saturation, @lightness);
       color: @color;
-      .markup.heading.marker.gfm {
+      .syntax--marker {
         color: @color;
       }
     }
